@@ -1,0 +1,30 @@
+body{
+    background: #ffffff;
+  }
+  .container{
+    max-width: 400px;
+  }
+  input[type=text],
+  input[type=text]:focus{
+    color: rgb(6, 3, 3);
+    border: none;
+    background: rgba(166, 159, 159, 0.2);
+    max-width: 400px;
+  }
+
+  .todos li{
+    background: #eeeded;
+  }
+
+  .delete{
+    cursor: pointer;
+  }
+
+.filtered {
+    display: none !important;
+}
+
+.dark-mode-b {
+  background-color: black;
+  color: white;
+}
