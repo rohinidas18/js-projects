@@ -1,0 +1,54 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="bl-styles.css">
+    
+    <title>Your Bucky</title>
+</head>
+<body>
+
+    <div class="container text-center my-5">
+        <h2>The Bucket List</h2>
+        
+        
+        <form class="p-5">
+            <label for="recipe">Add a new goal:</label>
+            <div class="input-group">
+                <input type="text" class="form-control my-2 mx-sm-2 rounded" id="goal" placeholder="what's next?" required>
+                <div class="input-group-append">
+                    <input type="submit" value="add" class="btn btn-outline-secondary my-2">
+                </div>
+            </div>
+        </form>
+
+
+        <ul></ul>
+
+    </div>
+
+
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase-firestore.js"></script>
+        
+    <script> 
+        const firebaseConfig = {
+          apiKey: "AIzaSyCa6qE72RKvAvPUZpBzrLmc3aACK_OpSpE",
+          authDomain: "to-do-app-92681.firebaseapp.com",
+          projectId: "to-do-app-92681",
+          storageBucket: "to-do-app-92681.appspot.com",
+          messagingSenderId: "786986205533",
+          appId: "1:786986205533:web:e26545fcec359dc358a8b4",
+          measurementId: "G-R5VKGBTX7T"
+        };
+      
+        // Initialize Firebase
+        const app = firebase.initializeApp(firebaseConfig);
+        const db = firebase.firestore();
+    </script>
+
+        <script src="bl-scrpt.js"></script>
+</body>
+</html>
