@@ -23,11 +23,11 @@ A collection of mini-projects I worked on while learning JavaScript, and some sc
     - uses local storage
   
   
-3. 
+5. **practice**
 
-
-
-
+    - create an annoying pop-up on a web-page
+    - create a (scary) timer
+    - 
 
 
 
