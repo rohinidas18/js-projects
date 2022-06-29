@@ -31,6 +31,6 @@ A collection of mini-projects I worked on while learning JavaScript, and some sc
     - create an annoying pop-up on a web-page
 
 
-
+&nbsp
 
 <sup> Course: Modern JavaScript (Complete guide, from Novice to Ninja) - by The Net Ninja </sup>
