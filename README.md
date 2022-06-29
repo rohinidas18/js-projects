@@ -27,9 +27,9 @@ A collection of mini-projects I worked on while learning JavaScript, and some sc
  
 5. **bucket-list app**
 
-    - web-app to check the weather conditions of different locations around the globe
-    - uses the AccuWeather API to deliver precise information, quickly
-    - uses local storage
+    - web-app to store different goals, add new ones, or remove the ones achieved
+    - uses Firebase instead of local storage
+    - clean, responsive UI
 
 <br/><br/>
 
