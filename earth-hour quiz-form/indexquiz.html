@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="quizstyles.css">
+    <title>Earth Quiz</title>
+</head>
+<body>
+    <!-- top section -->
+    <div class="intro py-3 bg-black text-center">
+        <div class="cont-heading">
+            <h2 class="text-success display-3 my-5">Earth Hour Quiz</h2>
+        </div>
+    </div>
+
+    <!-- result section -->
+  <div class="result py-4 d-none bg-light text-center">
+    <div class="res-container lead">
+      <p> You are <span class="text-success display-4 p-3">0%</span> Earth Saviour!</p>
+    </div>
+  </div>
+
+    <!-- mid section -->
+    <div class="quiz py-3 .bg-light"> 
+        <div class="container">
+            <h2 class="luck my-5 display-8 text-success text-center"> Good luck! </h2>
+
+            <form class="quiz-form">
+
+                <div class="card shadow my-5 p-4">
+                <p class="lead font-weight-normal"> 1. Where was the first-ever Earth Hour observed in 2007? </p>
+                <div class="form-check my-2">
+                    <br> <input name="q1" value="A" type="radio"> 
+                    <label class="op-one-text"> Australia <i class="fa fa-check d-none" aria-hidden="true"></i></label> </br>
+                    <input name="q1" value="B" type="radio">
+                    <label class="op-two-text"> India <i class="fa fa-times d-none" aria-hidden="true"></i></label>
+                </div>
+                </div>
+                
+                <div class="card shadow my-5 p-4">
+                <p class="lead font-weight-normal"> 2. When did India observe its first Earth Hour? </p>
+                    <div class="form-check my-2">
+                    <br><input name="q2" value="A" type="radio"> 
+                    <label class="op-one-text"> 2007 <i class="fa fa-times d-none" aria-hidden="true"></i></label> </br>
+                    <input name="q2" value="B" type="radio"> 
+                    <label class="op-two-text"> 2009 <i class="fa fa-check d-none" aria-hidden="true"></i></label>
+                    </div>
+                </div>
+                
+                <div class="card shadow my-5 p-4">
+                <p class="lead font-weight-normal"> 3. What is the theme of Earth Hour 2022? </p>
+                <div class="form-check my-2">   
+                    <br> <input name="q3" value="A" type="radio"> 
+                    <label class="op-one-text"> Shape Our Future <i class="fa fa-check d-none" aria-hidden="true"></i></label> </br>
+                    <input name="q3" value="B" type="radio"> 
+                    <label class="op-two-text"> Speak Up for Nature <i class="fa fa-times d-none" aria-hidden="true"></i></label>
+                    </div> 
+                </div>
+
+                <div class="card shadow my-5 p-4">
+                <p class="lead font-weight-normal"> 4. Earth Hour as an initiative encourages individuals, businesses & governments to:</p>
+                <div class="form-check my-2">   
+                    <br> <input name="q4" value="A" type="radio"> 
+                    <label class="op-one-text"> Switch off non-essential lights between 8:30-9:30 PM on the day<i class="fa fa-check d-none" aria-hidden="true"></i></label> </br>
+                    <input name="q4" value="B" type="radio"> 
+                    <label class="op-two-text"> To advertise our planet <i class="fa fa-times d-none" aria-hidden="true"></i></label>
+                </div>
+            </div>
+                
+                <div class="card shadow my-5 p-4">
+                    <p class="lead font-weight-normal"> 5. Which group organizes Earth Hour every year?</p>
+                    <div class="form-check my-2">   
+                    <br> <input name="q5" value="A" type="radio"> 
+                    <label class="op-one-text"> World Wide Fund for Nature <i class="fa fa-check d-none" aria-hidden="true"></i></label> </br>
+                    <input name="q5" value="B" type="radio"> 
+                    <label class="op-two-text"> UNICEF <i class="fa fa-times d-none" aria-hidden="true"></i></label>
+                    </div>
+                </div>
+
+                <div class="container text-center py-3"> <input type="submit" class="btn btn-dark"> </div>
+
+            </form>
+        </div> 
+    </div>
+
+    
+
+    <script src="quiz.js"></script>
+</body>
+</html>
