@@ -5,7 +5,7 @@ A collection of mini-projects I worked on while learning JavaScript, and some sc
 
 1. **earth-hour quiz-form**
 
-    - a fun quiz-form to assess basic general knowledge about the Earth Hour
+    - fun quiz-form to assess basic general knowledge about the Earth Hour
     - correct answer choices can be viewed after submitting, along with an animated result percentage
     - cleaned up the UI for a more aesthetic look
 
