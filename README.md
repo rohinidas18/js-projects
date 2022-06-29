@@ -2,34 +2,35 @@
 
 A collection of mini-projects I worked on while learning JavaScript, and some scripts for practicing.
 
+<br/><br/>
 
-1. **earth-hour quiz-form**
+1. **practice**
+    
+    - create an annoying pop-up on a web-page
+    
+2. **earth-hour quiz-form**
 
     - fun quiz-form to assess basic general knowledge about the Earth Hour
     - correct answer choices can be viewed after submitting, along with an animated result percentage
     - cleaned up the UI for a more aesthetic look
 
-2. **to-do app**
+3. **to-do app**
 
     - simple to-do list web-app, where you can add, delete, and search for your tasks.
     - minimalist UI via bootstrap5
     - dark mode enabled
   
-  
-3. **weather app**
+4. **weather app**
 
     - web-app to check the weather conditions of different locations around the globe
     - uses the AccuWeather API to deliver precise information, quickly
     - uses local storage
  
- 4. **bucket-list app**
+5. **bucket-list app**
 
-    - 
-  
-5. **practice**
-
-    - create an annoying pop-up on a web-page
-
+    - web-app to check the weather conditions of different locations around the globe
+    - uses the AccuWeather API to deliver precise information, quickly
+    - uses local storage
 
 <br/><br/>
 
