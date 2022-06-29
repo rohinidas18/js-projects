@@ -2,8 +2,6 @@
 
 A collection of mini-projects I worked on while learning JavaScript, and some scripts for practicing.
 
-<br/><br/>
-
 1. **practice**
     
     - create an annoying pop-up on a web-page
