@@ -1,6 +1,6 @@
 # js-projects #
 
-A collection of mini-projects I worked on while learning JavaScript.
+A collection of mini-projects I worked on while learning JavaScript, and some scripts for practicing.
 
 
 1. **to-do app**
