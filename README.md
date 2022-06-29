@@ -25,4 +25,4 @@ A collection of mini-projects I worked on while learning JavaScript, and scripts
 
 
 
-Course: Modern JavaScript (Complete guide, from Novice to Ninja) - by The Net Ninja
+<sup> Course: Modern JavaScript (Complete guide, from Novice to Ninja) - by The Net Ninja </sup>
