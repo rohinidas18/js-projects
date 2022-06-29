@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="calc-styles.css">
+    <title>JavaScript Calculator</title>
+</head>
+<body>
+    <div class="banner text-center p-5"> <h1> Calculator </h1> </div>
+    
+    <div class="container text-center p-5">
+        <form name="form1">
+            <!-- shows the button pressed by the user in calculator. -->
+            <input id = "calc" class="form-control shadow mx-auto" type ="text" name = "answer"> <br> <br>  
+
+            <!-- onclick() function displays the number pressed by the user. -->  
+            <input type = "button" value = "1" class="btn btn-outline-dark" onclick = "form1.answer.value += '1' ">  
+            <input type = "button" value = "2" class="btn btn-outline-dark" onclick = "form1.answer.value += '2' ">  
+            <input type = "button" value = "3" class="btn btn-outline-dark" onclick = "form1.answer.value += '3' ">  
+            <input type = "button" value = "+" class="btn btn-outline-dark" onclick = "form1.answer.value += '+' ">  
+            <br> <br> 
+
+            <input type = "button" value = "4" class="btn btn-outline-dark" onclick = "form1.answer.value += '4' ">  
+            <input type = "button" value = "5" class="btn btn-outline-dark" onclick = "form1.answer.value += '5' ">  
+            <input type = "button" value = "6" class="btn btn-outline-dark" onclick = "form1.answer.value += '6' ">  
+            <input type = "button" value = "-" class="btn btn-outline-dark" onclick = "form1.answer.value += '-' ">  
+            <br> <br>  
+                
+            <input type = "button" value = "7" class="btn btn-outline-dark" onclick = "form1.answer.value += '7' ">  
+            <input type = "button" value = "8" class="btn btn-outline-dark" onclick = "form1.answer.value += '8' ">  
+            <input type = "button" value = "9" class="btn btn-outline-dark" onclick = "form1.answer.value += '9' ">  
+            <input type = "button" value = "*" class="btn btn-outline-dark" onclick = "form1.answer.value += '*' ">  
+            <br> <br>  
+
+
+            <input type = "button" value = "/" class="btn btn-outline-dark" onclick = "form1.answer.value += '/' ">  
+            <input type = "button" value = "0" class="btn btn-outline-dark" onclick = "form1.answer.value += '0' ">  
+            <input type = "button" value = "." class="btn btn-outline-dark" onclick = "form1.answer.value += '.' ">
+
+            <!-- when the '=' button is clicked, the onclick() displays the sum -->  
+            <input type = "button" value = "=" class="btn btn-success" onclick = "form1.answer.value = eval(form1.answer.value) ">  
+            <br> <br>  
+
+            <!-- cancel button erases all data entered by the user. -->  
+            <input type = "button" value = "Clear All" class="btn btn-danger" onclick = "form1.answer.value = ' ' " id= "clear" >  
+            <br>
+        </form>  
+    </div>  
+</body>
+</html>
