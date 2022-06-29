@@ -1,3 +1,5 @@
+alert('psst, click the button!');
+
 const btn = document.querySelector('button');
 const dw = document.querySelector('.popup-wrapper');
 
