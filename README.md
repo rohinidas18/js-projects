@@ -5,6 +5,7 @@ A collection of mini-projects I worked on while learning JavaScript, and some sc
 1. **practice**
     
     - create an annoying pop-up on a web-page
+    - create a basic calculator
     
 2. **earth-hour quiz-form**
 
