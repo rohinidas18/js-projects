@@ -21,13 +21,15 @@ A collection of mini-projects I worked on while learning JavaScript, and some sc
     - web-app to check the weather conditions of different locations around the globe
     - uses the AccuWeather API to deliver precise information, quickly
     - uses local storage
-  
+ 
+ 4. **bucket-list app**
+
+    - 
   
 5. **practice**
 
     - create an annoying pop-up on a web-page
-    - create a (scary) timer
-    - 
+
 
 
 
