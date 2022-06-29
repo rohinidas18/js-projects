@@ -1,5 +1,7 @@
 # js-projects #
+
 A collection of mini-projects I worked on while learning JavaScript, and scripts for practicing.
+
 Course: Modern JavaScript (Complete guide, from Novice to Ninja) - by The Net Ninja
 
 
